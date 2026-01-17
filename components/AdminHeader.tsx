@@ -22,7 +22,7 @@ export default function AdminHeader() {
             <Building2 className="w-5 h-5 lg:w-6 lg:h-6 text-primary" />
           </div>
           <div>
-            <h1 className="text-base lg:text-lg font-bold text-text-primary">B'Cyclette</h1>
+            <h1 className="text-base lg:text-lg font-bold text-text-primary">B&apos;Cyclette</h1>
             <p className="text-xs text-text-tertiary hidden sm:block">Super-Admin</p>
           </div>
         </div>

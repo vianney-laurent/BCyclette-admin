@@ -25,7 +25,7 @@ export default async function CompaniesPage() {
             Entreprises
           </h1>
           <p className="text-text-secondary mt-2">
-            Gérez toutes les entreprises de B'Cyclette
+            Gérez toutes les entreprises de B&apos;Cyclette
           </p>
         </div>
         <CreateCompanyButton />

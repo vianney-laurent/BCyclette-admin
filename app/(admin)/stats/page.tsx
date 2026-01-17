@@ -80,7 +80,7 @@ export default async function StatsPage() {
           Statistiques Globales
         </h1>
         <p className="text-text-secondary mt-2">
-          Vue d'ensemble de toutes les entreprises et utilisateurs
+          Vue d&apos;ensemble de toutes les entreprises et utilisateurs
         </p>
       </div>
 

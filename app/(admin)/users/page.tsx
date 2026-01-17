@@ -23,7 +23,7 @@ export default async function UsersPage() {
           Tous les Utilisateurs
         </h1>
         <p className="text-text-secondary mt-2">
-          Liste de tous les utilisateurs de B'Cyclette
+          Liste de tous les utilisateurs de B&apos;Cyclette
         </p>
       </div>
 

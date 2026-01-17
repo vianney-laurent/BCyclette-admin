@@ -76,7 +76,7 @@ export default function LoginPage() {
               <Building2 className="w-8 h-8 text-primary" />
             </div>
             <h1 className="text-3xl font-bold text-text-primary mb-2">
-              B'Cyclette Admin
+              B&apos;Cyclette Admin
             </h1>
             <p className="text-text-secondary">
               Connexion Super-Administrateur

@@ -88,8 +88,8 @@ export default function EditUserModal({ isOpen, onClose, user, onSuccess }: Edit
               <UserIcon className="w-5 h-5 text-primary" />
             </div>
             <div>
-              <h2 className="text-xl font-bold text-text-primary">Modifier l'utilisateur</h2>
-              <p className="text-sm text-text-secondary">Mettre à jour les informations de l'utilisateur</p>
+              <h2 className="text-xl font-bold text-text-primary">Modifier l&apos;utilisateur</h2>
+              <p className="text-sm text-text-secondary">Mettre à jour les informations de l&apos;utilisateur</p>
             </div>
           </div>
           <button
@@ -196,7 +196,7 @@ export default function EditUserModal({ isOpen, onClose, user, onSuccess }: Edit
             </select>
             {formData.super_admin && (
               <p className="text-xs text-text-tertiary mt-1">
-                Le rôle est automatiquement "admin" pour les super-admins
+                Le rôle est automatiquement &quot;admin&quot; pour les super-admins
               </p>
             )}
           </div>
@@ -208,7 +208,7 @@ export default function EditUserModal({ isOpen, onClose, user, onSuccess }: Edit
               Super-Administrateur
             </label>
             <p className="text-sm text-text-secondary mb-3">
-              Accès complet à toutes les entreprises et fonctionnalités d'administration
+              Accès complet à toutes les entreprises et fonctionnalités d&apos;administration
             </p>
             <Toggle
               id="super_admin"

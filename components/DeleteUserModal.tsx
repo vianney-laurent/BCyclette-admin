@@ -69,7 +69,7 @@ export default function DeleteUserModal({ isOpen, onClose, user, onSuccess }: De
               <AlertTriangle className="w-5 h-5 text-error" />
             </div>
             <div>
-              <h2 className="text-xl font-bold text-text-primary">Supprimer l'utilisateur</h2>
+              <h2 className="text-xl font-bold text-text-primary">Supprimer l&apos;utilisateur</h2>
               <p className="text-sm text-text-secondary">Cette action est irréversible</p>
             </div>
           </div>
@@ -98,14 +98,14 @@ export default function DeleteUserModal({ isOpen, onClose, user, onSuccess }: De
               <p><strong>Nom :</strong> {user.first_name} {user.last_name}</p>
               <p><strong>Email :</strong> {user.email}</p>
               <p className="text-error font-semibold mt-2">
-                Cette action supprimera définitivement l'utilisateur et toutes ses données associées.
+                Cette action supprimera définitivement l&apos;utilisateur et toutes ses données associées.
               </p>
             </div>
           </div>
 
           <div>
             <label htmlFor="confirm" className="label">
-              Pour confirmer, tapez <strong className="text-error">"{confirmationWord}"</strong> :
+              Pour confirmer, tapez <strong className="text-error">&quot;{confirmationWord}&quot;</strong> :
             </label>
             <input
               id="confirm"

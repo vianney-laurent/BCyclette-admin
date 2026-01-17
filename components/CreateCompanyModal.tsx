@@ -80,7 +80,7 @@ export default function CreateCompanyModal({ isOpen, onClose }: CreateCompanyMod
           <div>
             <label htmlFor="name" className="label">
               <Building2 className="inline w-4 h-4 mr-2" />
-              Nom de l'entreprise *
+              Nom de l&apos;entreprise *
             </label>
             <input
               id="name"
@@ -115,7 +115,7 @@ export default function CreateCompanyModal({ isOpen, onClose }: CreateCompanyMod
           <div>
             <label htmlFor="employee_count" className="label">
               <Users className="inline w-4 h-4 mr-2" />
-              Nombre d'employés *
+              Nombre d&apos;employés *
             </label>
             <input
               id="employee_count"

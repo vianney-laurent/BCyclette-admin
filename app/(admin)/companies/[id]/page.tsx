@@ -58,7 +58,7 @@ export default async function CompanyDetailPage({ params }: PageProps) {
             {company.name}
           </h1>
           <p className="text-text-secondary">
-            Gestion et configuration de l'entreprise
+            Gestion et configuration de l&apos;entreprise
           </p>
         </div>
       </div>
