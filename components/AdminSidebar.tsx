@@ -6,12 +6,14 @@ import {
   Building2, 
   Users, 
   Settings,
-  Home
+  Home,
+  Gift
 } from 'lucide-react'
 
 const menuItems = [
   { href: '/companies', label: 'Entreprises', icon: Building2 },
   { href: '/users', label: 'Utilisateurs', icon: Users },
+  { href: '/rewards', label: 'Récompenses', icon: Gift },
   { href: '/app-config', label: 'Config Globale', icon: Settings },
 ]
 

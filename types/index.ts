@@ -43,3 +43,16 @@ export interface CompanyStats {
   total_co2: number
   total_points: number
 }
+
+export interface Reward {
+  id: string
+  partner_name: string
+  point_cost: number
+  description: string | null
+  stock_quantity: number
+  image_url: string | null
+  is_active: boolean
+  priority: number
+  min_points_required: number
+  created_at: string
+}
